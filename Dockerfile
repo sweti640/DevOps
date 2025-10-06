@@ -5,6 +5,7 @@ ENV APP_HOME /app
 WORKDIR $APP_HOME
 COPY ./app ./
 COPY requirements.txt ./
+#trying to help
 
 # Install production dependencies.
 RUN pip install -r requirements.txt
